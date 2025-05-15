@@ -10,35 +10,31 @@
  
 <body>
    {{-- <div class="py-12"> --}}
-        <div class="flex flex-col items-center bg-white min-h-screen py-8 mt-10">
-            <p class="text-gray-700 mb-4">
+    
+        <div class="flex flex-col items-center bg-white min-h-screen py-8 mt-10 ">
+            {{-- <p class="text-amber-900 font-mono mb-4 pl-6">
                     Selamat datang di halaman panduan sistem monitoring suhu dan kelembapan untuk budidaya jamur tiram.
                     Panduan ini akan membantu Anda memahami fungsi dari setiap bagian di dalam website.
-                </p>
-            <img src="{{ asset('images/jamur_tiram.png') }}" alt="Jamur Tiram" width="300">
+                </p> --}}
+                <div class="flex justify-center items-center space-x-4">
+                    <img src="{{ asset('images/jamur_tiram.png') }}" alt="Jamur Tiram" width="300">
+                    <img src="{{ asset('images/logojamurtiram-removebg-preview.png') }}" alt="Jamur Tiram 3" width="300">
+                    <img src="{{ asset('images/jamurtiram2.png') }}" alt="Jamur Tiram 2" width="300">
+                    
 
+                </div>
+            
             <div class="bg-white shadow-sm sm:rounded-lg p-6 ">
                 
 
                 <div class="space-y-3">
-                    <div>
-                        <h3 class="text-purple-600 font-bold">Jamur Tiram</h3>
-                        <p class="text-gray-600">Jamur tiram (Pleurotus ostreatus) adalah jenis jamur yang termasuk dalam kelompok jamur pangan dan banyak dibudidayakan karena memiliki nilai gizi tinggi serta rasa yang enak. Nama “tiram” diambil dari bentuk tudungnya yang menyerupai cangkang kerang tiram. Jamur ini tumbuh secara alami di batang kayu lapuk, namun kini banyak dibudidayakan menggunakan media seperti serbuk gergaji, jerami, atau limbah pertanian lainnya.</p>
+                    <div  class="bg-white shadow-lg rounded-3xl p-6 text-justify"> 
+                     
+                        <h3 class="text-amber-900 font-bold text-2xl text-center font-mono font-bold">Jamur Tiram</h3>
+                        <br>
+                        <p class="text-amber-900 text-justify font-mono">Jamur tiram (Pleurotus ostreatus) adalah jenis jamur yang termasuk dalam kelompok jamur pangan dan banyak dibudidayakan karena memiliki nilai gizi tinggi serta rasa yang enak. Nama “tiram” diambil dari bentuk tudungnya yang menyerupai cangkang kerang tiram. Jamur ini tumbuh secara alami di batang kayu lapuk, namun kini banyak dibudidayakan menggunakan media seperti serbuk gergaji, jerami, atau limbah pertanian lainnya. Menampilkan data suhu dan kelembapan secara real-time. Anda bisa memantau kondisi ruangan jamur saat ini dengan grafik dan nilai yang terus diperbarui. Jamur tiram (Pleurotus ostreatus) adalah jenis jamur yang termasuk dalam kelompok jamur pangan dan banyak dibudidayakan karena memiliki nilai gizi tinggi serta rasa yang enak. Nama “tiram” diambil dari bentuk tudungnya yang menyerupai cangkang kerang tiram. Jamur ini tumbuh secara alami di batang kayu lapuk, namun kini banyak dibudidayakan menggunakan media seperti serbuk gergaji, jerami, atau limbah pertanian lainnya. Menampilkan data suhu dan kelembapan secara real-time. Anda bisa memantau kondisi ruangan jamur saat ini dengan grafik dan nilai yang terus diperbarui.</p>
                     </div>
-                    <div>
-                        <h3 class="text-purple-600 font-bold">Dashboard</h3>
-                        <p class="text-gray-600">Menampilkan data suhu dan kelembapan secara real-time. Anda bisa memantau kondisi ruangan jamur saat ini dengan grafik dan nilai yang terus diperbarui.</p>
-                    </div>
-
-                    <div>
-                        <h3 class="text-purple-600 font-bold">Riwayat</h3>
-                        <p class="text-gray-600">Berisi data historis suhu dan kelembapan. Fitur ini berguna untuk melakukan analisis atau memantau tren perkembangan suhu dan kelembapan dari waktu ke waktu.</p>
-                    </div>
-
-                    <div>
-                        <h3 class="text-purple-600 font-bold">Panduan</h3>
-                        <p class="text-gray-600">Halaman ini menjelaskan cara menggunakan website monitoring. Pastikan perangkat sudah terhubung dengan sensor dan jaringan.</p>
-                    </div>
+                    
                 </div>
 
                 <hr class="my-6">
