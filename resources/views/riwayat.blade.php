@@ -1,7 +1,7 @@
 <x-app-layout>
     <x-slot name="header">
-        <h2 class="font-semibold text-xl text-gray-800 leading-tight">
-            {{ __('Riwayat') }}
+        <h2 class="font-semibold text-xl text-black leading-tight text-center">
+            {{ __('Riwayat Monitoring Jamur Tiram') }}
         </h2>
     </x-slot>
 <div class="bg-custom min-h-screen">
@@ -14,13 +14,14 @@
             <h1>SHROOMATIC’S</h1>
             <small>WEBSITE</small>
         </div> --}}
+<div class="px-6">
 <table class="table table-bordered" style="background-color: #f8f4f0;">
     <tr>
-        <th style="background-color: #6e543d; color: white;">Suhu</th>
-        <th style="background-color: #6e543d; color: white;">Kelembapan</th>
-        <th style="background-color: #6e543d; color: white;">Tanggal</th>
-        {{-- <th style="background-color: #6e543d; color: white;">Jumlah Penyiraman</th>
-        <th style="background-color: #6e543d; color: white;">Status</th> --}}
+        <th style="background-color: #6b3e26; color: white;">Tanggal</th>
+        <th style="background-color: #6b3e26; color: white;">Suhu</th>
+        <th style="background-color: #6b3e26; color: white;">Kelembapan</th>
+        {{-- <th style="background-color: #6b3e26; color: white;">Jumlah Penyiraman</th>
+        <th style="background-color: #6b3e26; color: white;">Status</th> --}}
     </tr>
     {{-- <tr>
         <th>No</th>
@@ -45,6 +46,7 @@
     </tr>
     @endforeach --}}
 </table>
+</div>
     {{-- <div class="footer">by Highfive</div> --}}
 
     <style>

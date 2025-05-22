@@ -1,4 +1,4 @@
-<nav x-data="{ open: false }" class="bg-gray border-b border-gray">
+<nav x-data="{ open: false }" class="bg-[#6b3e26] border-0 border-gray">
     <!-- Primary Navigation Menu -->
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex justify-between h-16 ">
@@ -12,7 +12,7 @@
                 </div>
 
                 <!-- Navigation Links -->
-                <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
+                <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex ">
                     <x-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
                         {{ __('Dashboard') }}
                     </x-nav-link>
@@ -22,11 +22,11 @@
                         {{ __('Riwayat') }}
                     </x-nav-link>
                 </div>
-                <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
+                {{-- <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
                     <x-nav-link :href="route('panduan')" :active="request()->routeIs('panduan')">
                     {{ __('Panduan') }}
                     </x-nav-link>
-                </div>
+                </div> --}}
             </div>
 
             <!-- Settings Dropdown -->

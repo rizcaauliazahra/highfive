@@ -1,45 +1,46 @@
 <x-app-layout>
     <x-slot name="header">
-        <h2 class="font-semibold text-xl text-gray-800 leading-tight">
-            {{ __('Dashboard') }}
+        <h2 class="font-semibold text-xl text-black leading-tight text-center">
+            {{ __('HELLO THERE...') }} <br>
+            {{ __('WELCOME TO') }} <br> 
+            {{ __('SHROOMATIC’S') }} <br>
+            {{ __('WEBSITE') }} <br>
         </h2>
     </x-slot>
-<div class="bg-custom min-h-screen">
+<div class="bg-custom flex justify-center  ">
 
-    <div class="container">
-        <div class="sidebar">
-            <h2>HELLO THERE...</h2>
-            <p>WELCOME TO</p>
-            <h1>SHROOMATIC’S</h1>
-            <small>WEBSITE</small>
-        </div>
-
-        <div class="content">
-            <div class="card">
-
-                <div class="label">TEMP</div>
+    <div class="container flex justify-center">
+       
+        <div class="content ">
+            <div class="card ">
+                 {{-- <i class="fas fa-thermometer-half text-red-500 text-2xl"></i> --}}
+                {{-- <div class="label">TEMP</div> --}}
+                <i class="fa-solid fa-temperature-half text-2xl"></i>
                 <div class="big-text">26°C</div>
                 <small>Suhu Jamur</small>
             </div>
             <div class="card">
-                <div class="label">HUMI</div>
+                {{-- <div class="label">HUMI</div> --}}
+                <i class="fa-solid fa-water text-2xl"></i>
                 <div class="big-text">45%</div>
                 <small>Kelembaban Jamur</small>
             </div>
             <div class="card">
-                <div class="label">SPRAYED</div>
+                {{-- <div class="label">SPRAYED</div> --}}
+                <i class="fa-solid fa-wind text-2xl"></i>
                 <div class="big-text">3X</div>
-                <small>Telah disiram</small>
+                <small>Penyiraman</small>
             </div>
             <div class="card">
-                <div class="label">STATUS</div>
+                {{-- <div class="label">STATUS</div> --}}
+                <i class="fa-solid fa-seedling text-2xl"></i>
                 <div class="big-text">IDEAL</div>
                 <small>Status</small>
             </div>
         </div>
     </div>
 </div>
-    <div class="footer">by Highfive</div>
+    <div class="footer">&copy; 2025 Shroomatic Highfive</div>
 
     <style>
         body {

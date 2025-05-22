@@ -1,4 +1,4 @@
-<x-app-layout>
+{{-- <x-app-layout>
     <x-slot name="header">
         <h2 class="font-semibold text-xl text-gray-800 leading-tight">
             {{ __('Panduan') }}
@@ -9,13 +9,10 @@
 
  
 <body>
-   {{-- <div class="py-12"> --}}
+  
     
         <div class="flex flex-col items-center bg-white min-h-screen py-8 mt-10 ">
-            {{-- <p class="text-amber-900 font-mono mb-4 pl-6">
-                    Selamat datang di halaman panduan sistem monitoring suhu dan kelembapan untuk budidaya jamur tiram.
-                    Panduan ini akan membantu Anda memahami fungsi dari setiap bagian di dalam website.
-                </p> --}}
+           
                 <div class="flex justify-center items-center space-x-4">
                     <img src="{{ asset('images/jamur_tiram.png') }}" alt="Jamur Tiram" width="300">
                     <img src="{{ asset('images/logojamurtiram-removebg-preview.png') }}" alt="Jamur Tiram 3" width="300">
@@ -62,10 +59,7 @@
 }
 
 .container {
-    /* justify-content: center;
-  display: flex;
-  padding: 40px;
-  gap: 40px; */
+   
   padding: 10px;
   gap: 40px;
   display: flex;
@@ -79,22 +73,6 @@
 .welcome {
   flex: 1;
 }
-
-/* .card-container {
-  flex: 2;
-  display: flex;
-  gap: 20px;
-  flex-wrap: wrap;
-} */
-
-/* .card {
-  background: white;
-  border-radius: 20px;
-  padding: 30px;
-  width: 200px;
-  text-align: center;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-} */
 
 .card h1 {
   font-size: 48px;
@@ -111,7 +89,7 @@
 
 table {
             border-collapse: collapse;
-            width: 100%; /* Menyesuaikan lebar tabel */
+            width: 100%; 
             text-align: center;
             
         }
@@ -125,4 +103,4 @@ table {
 }
     </style>
 </x-app-layout>
-
+ --}}
