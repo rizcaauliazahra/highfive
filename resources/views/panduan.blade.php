@@ -54,8 +54,6 @@
 }
 
 
-
-
 .navbar .menu a {
   margin-left: 20px;
   text-decoration: none;

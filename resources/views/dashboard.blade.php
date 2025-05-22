@@ -6,18 +6,6 @@
     </x-slot>
 <div class="bg-custom min-h-screen">
 
-
-    {{-- <div class="navbar">
-        <div>
-            <a href="#" class="active">HOME</a>
-            <a href="#">ABOUT</a>
-            <a href="/riwayat">RIWAYAT</a>
-            <a href="#">DETAILS</a>
-            <a href="#">CS</a>
-        </div>
-        <div><strong>SHROOMATIC</strong></div>
-    </div> --}}
-
     <div class="container">
         <div class="sidebar">
             <h2>HELLO THERE...</h2>
@@ -28,16 +16,7 @@
 
         <div class="content">
             <div class="card">
-                {{-- <div class="card-header" style="text-align: center; background-color: red; color: white;">
-                    <h4>SUHU</h4>
-                </div>
-                <div class= "card-body">
-                    <div style="font-size: 70px; font-weight: bold;">
-                     <span>0</span> <span style="font-size: 24pc; vertical-align: top;">C</span>
 
-                    </div>
-
-                </div> --}}
                 <div class="label">TEMP</div>
                 <div class="big-text">26°C</div>
                 <small>Suhu Jamur</small>
@@ -53,9 +32,9 @@
                 <small>Telah disiram</small>
             </div>
             <div class="card">
-                <div class="label">MODE</div>
-                <div class="big-text">AUTO</div>
-                <small>Mode Monitoring</small>
+                <div class="label">STATUS</div>
+                <div class="big-text">IDEAL</div>
+                <small>Status</small>
             </div>
         </div>
     </div>
@@ -137,21 +116,3 @@
         }
     </style>
 </x-app-layout>
-
-{{-- <x-app-layout>
-    <x-slot name="header">
-        <h2 class="font-semibold text-xl text-gray-800 leading-tight">
-            {{ __('Dashboard') }}
-        </h2>
-    </x-slot>
-
-    <div class="py-12">
-        <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
-            <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg">
-                <div class="p-6 text-gray-900">
-                    {{ __("You're logged in!") }}
-                </div>
-            </div>
-        </div>
-    </div>
-</x-app-layout> --}}

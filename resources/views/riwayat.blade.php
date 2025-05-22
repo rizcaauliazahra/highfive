@@ -19,8 +19,6 @@
         <th style="background-color: #6e543d; color: white;">Suhu</th>
         <th style="background-color: #6e543d; color: white;">Kelembapan</th>
         <th style="background-color: #6e543d; color: white;">Tanggal</th>
-        <th style="background-color: #6e543d; color: white;">Jumlah Semprotan</th>
-        <th style="background-color: #6e543d; color: white;">Sistem</th>
         {{-- <th style="background-color: #6e543d; color: white;">Jumlah Penyiraman</th>
         <th style="background-color: #6e543d; color: white;">Status</th> --}}
     </tr>

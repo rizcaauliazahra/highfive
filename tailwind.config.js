@@ -14,6 +14,10 @@ export default {
             fontFamily: {
                 sans: ['Figtree', ...defaultTheme.fontFamily.sans],
             },
+            colors: {
+                coklat: '#6b3e26', // ➜ warna coklat khusus kamu
+                coklat: '#e5b189', // ➜ warna coklat khusus kamu
+            },
         },
     },
 
